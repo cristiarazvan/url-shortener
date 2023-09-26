@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>{% block title%} {%endblock%}</title>
+</head>
+<body class="h-screen w-screen bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#23486F] via-[#192532] to-[#10131C]">
+    
+
+
+    <div >
+        <div class=" text-4xl w-1/2 h-1/3 absolute top-1/4 left-1/4  text-white flex items-center justify-center  ">
+            URL SHORTENER
+        </div>
+        
+        {% block content%}
+        {% endblock %}
+    
+    </div>
+
+
+</body>
+</html>

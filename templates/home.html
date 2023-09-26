@@ -1,0 +1,33 @@
+{% extends "base.html"%}
+{%block title%} shorten URL {%endblock%}
+
+
+{%block content%}
+<!-- box-content h-32 w-32 p-4 border-4 -->
+<div class="grid h-screen place-items-center ">
+
+    <form action="#", method="post", class="m-4 flex"">
+       
+        
+        <input type="url" name ="nm" id ="url"
+        placeholder="https://example.com"
+        pattern="https://.*" size="100"
+        class="px-2 py-1 placeholder-slate-300 text-slate-600 relative bg-white bg-white rounded text-sm border border-slate-300 outline-none focus:outline-none focus:ring w-full
+        required">
+        <label
+        for="url"
+        
+        Enter URL</label>
+       
+        
+        <button
+        type="submit"
+        class=" px-8 rounded-r-lg bg-blue-400  text-gray-800 font-bold p-4 uppercase border-blue-500 border-t border-b border-r"
+        data-te-ripple-init
+        data-te-ripple-color="light">
+        Submit
+      </button>
+    </form>
+
+</div>
+{%endblock%}
