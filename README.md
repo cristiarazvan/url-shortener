@@ -1,3 +1,4 @@
-https://github.com/cristiarazvan/url-shortener#url-shortener
+#url-shortener
 
-URL SHORTENER
+An url-shortener using Flask
+![alt text](https://imgur.com/jvOscMx)
